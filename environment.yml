@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python=3.9
   - jupyterlab
   - netcdf4
   - numpy
@@ -12,5 +13,6 @@ dependencies:
   - cartopy
   - seaborn
   - gsw
+  - tqdm
   - pip:
       - git+http://github.com/euroargodev/argopy.git@master
